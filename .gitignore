@@ -1,0 +1,30 @@
+# Environment files with real credentials (the template .env.example is tracked)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node / frontend build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs and runtime output
+logs/
+*.log
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
